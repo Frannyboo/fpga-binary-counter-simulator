@@ -10,7 +10,7 @@ The simulator provides a hardware-inspired interface where users can observe bin
 
 # 🚀 Live Demo
 
-[Streamlit App Link](YOUR_STREAMLIT_LINK_HERE)
+[Streamlit App Link](https://fpga-binary-counter-simulator-3m25k5ffskwqfwcs8tlfrw.streamlit.app/)
 
 ---
 
