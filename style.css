@@ -1,0 +1,303 @@
+/* ==========================================================
+   FPGA Binary Counter Simulator
+   Custom Streamlit Styling
+   ========================================================== */
+
+
+/* Main page */
+
+.main {
+
+    background-color: #f8f9fa;
+
+}
+
+
+/* Title */
+
+h1 {
+
+    text-align: center;
+
+    font-weight: 700;
+
+    letter-spacing: 1px;
+
+}
+
+
+
+/* Section headers */
+
+h2, h3 {
+
+    color: #1f4e79;
+
+}
+
+
+
+/* Divider */
+
+hr {
+
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+/* ==========================================================
+   METRIC CARDS
+   ========================================================== */
+
+
+div[data-testid="metric-container"] {
+
+    background-color: white;
+
+    padding: 15px;
+
+    border-radius: 12px;
+
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.12);
+
+}
+
+
+
+/* Metric label */
+
+div[data-testid="metric-container"] label {
+
+    font-weight: bold;
+
+}
+
+
+
+/* ==========================================================
+   BUTTONS
+   ========================================================== */
+
+
+div.stButton > button {
+
+    width: 100%;
+
+    border-radius: 10px;
+
+    height: 45px;
+
+    font-weight: bold;
+
+}
+
+
+/* ==========================================================
+   INFO BOXES
+   ========================================================== */
+
+
+.info-box {
+
+    background-color:white;
+
+    padding:20px;
+
+    border-radius:15px;
+
+    box-shadow:
+
+        0px 3px 8px rgba(0,0,0,0.1);
+
+}
+
+
+
+/* ==========================================================
+   DATAFRAME
+   ========================================================== */
+
+
+div[data-testid="stDataFrame"] {
+
+    border-radius:12px;
+
+    overflow:hidden;
+
+}
+
+
+
+/* ==========================================================
+   ALERT BOXES
+   ========================================================== */
+
+
+div[data-testid="stAlert"] {
+
+    border-radius:12px;
+
+}
+
+
+
+/* ==========================================================
+   SIDEBAR / CONTROL PANEL
+   ========================================================== */
+
+
+section[data-testid="stSidebar"] {
+
+    background-color:#ffffff;
+
+}
+
+
+
+/* ==========================================================
+   FOOTER
+   ========================================================== */
+
+
+footer {
+
+    visibility:hidden;
+
+}
+
+/* ==========================================================
+   FPGA LED DISPLAY
+   ========================================================== */
+
+
+.led-panel {
+
+    background:#1b1b1b;
+
+    border:2px solid #444;
+
+    border-radius:12px;
+
+    padding:25px;
+
+    margin-top:10px;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.led-title {
+
+    text-align:center;
+
+    color:white;
+
+    font-size:24px;
+
+    font-weight:bold;
+
+    margin-bottom:25px;
+
+}
+
+
+
+.led-row {
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:28px;
+
+    flex-wrap:wrap;
+
+}
+
+
+
+.led-item {
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    width:70px;
+
+}
+
+
+
+.led {
+
+    width:52px;
+
+    height:52px;
+
+    border-radius:50%;
+
+    border:2px solid #666;
+
+    margin-bottom:12px;
+
+}
+
+
+
+.led-on {
+
+    background:#00ff55;
+
+    box-shadow:
+
+        0px 0px 6px #00ff55,
+
+        0px 0px 15px #00ff55,
+
+        0px 0px 28px #00ff55;
+
+}
+
+
+
+.led-off {
+
+    background:#202020;
+
+    box-shadow:
+
+        inset 0px 0px 10px black;
+
+}
+
+
+
+.bit-label {
+
+    color:#cccccc;
+
+    font-size:14px;
+
+    font-weight:bold;
+
+}
+
+
+
+.bit-value {
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+}
